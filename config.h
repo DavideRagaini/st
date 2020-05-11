@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "SourceCodePro:pixelsize=24:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=20:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -108,32 +108,33 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.95;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#000000",
+	"#FF5555",
+	"#50FA7B",
+	"#F1FA8C",
+	"#BD93F9",
+	"#FF79C6",
+	"#8BE9FD",
+	"#BFBFBF",
+	/* 8 to 15 */
+	"#4D4D4D",
+	"#FF6E67",
+	"#5AF78E",
+	"#F4F99D",
+	"#CAA9FA",
+	"#FF92D0",
+	"#9AEDFE",
+	"#E6E6E6",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
+	"#ff00ff", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#282a36", /* 258 -> bg */
+	"#f8f8f2", /* 259 -> fg */
 };
 
 

@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "SourceCodePro:pixelsize=24:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=20:antialias=true:autohint=true" };
+static char *font2[] = { "Inconsolata:pixelsize=20:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
